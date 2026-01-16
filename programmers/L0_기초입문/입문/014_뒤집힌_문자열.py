@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120822
 # 알고리즘: 기초
 # 작성자: 김재천
-# 작성일: 2026. 01. 16. 09:28:24
+# 작성일: 2026. 01. 16. 09:28:44
 
 # def solution(my_string):
 #     answer = ''
@@ -12,5 +12,6 @@
 #     answer="".join(reversed_lst)
 #     return answer
 
+# 문자열도 바로 뒤집을 수 있었다...
 def solution(my_string):
     return my_string[::-1]
