@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120814
 # 알고리즘: 기초
 # 작성자: 김재천
-# 작성일: 2026. 01. 16. 09:50:45
+# 작성일: 2026. 01. 16. 09:55:46
 
 # n//7이 1 이상
 def solution(n):
