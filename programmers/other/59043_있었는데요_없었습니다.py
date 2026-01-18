@@ -2,7 +2,9 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/59043
 # 작성자: 김재천
-# 작성일: 2026. 01. 18. 14:17:06
+# 작성일: 2026. 01. 18. 14:52:04
+
+-- MySQL 코드카타
 
 -- 보호 시작일>압영일
 -- animal_id, name 조회
