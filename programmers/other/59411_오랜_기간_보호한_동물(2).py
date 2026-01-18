@@ -2,7 +2,9 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/59411
 # 작성자: 김재천
-# 작성일: 2026. 01. 18. 14:50:14
+# 작성일: 2026. 01. 18. 14:52:25
+
+-- MySQL 코드카타
 
 -- o.datetime - i.datetime 상위 2마리
 # 1번 풀이 : order by 후 limit 2
