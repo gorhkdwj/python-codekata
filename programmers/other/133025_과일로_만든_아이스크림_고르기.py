@@ -2,20 +2,11 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/133025
 # 작성자: 김재천
-# 작성일: 2026. 01. 19. 10:34:01
+# 작성일: 2026. 01. 19. 10:34:46
 
--- 코드를 입력하세요
-SELECT
-    i.flavor
-from
-    icecream_info as i
-    left join first_half as f
-    on f.flavor = i.flavor
-where
-    ingredient_type = 'fruit_based'
-group by
-    i.flavor
-having
-    sum(total_order) > 3000
-order by
-    sum(total_order) desc;
+SELECT i.flavor
+FROM icecream_info i
+JOIN first_half f ON i.flavor = f.flavor -- 등호(=) 사용!
+WHERE i.ingredient_type = 'fruit_based'
+  AND f.total_order > 3000 -- HAVING 대신 WHERE에서 바로 필터링
+ORDER BY f.total_order DESC;
