@@ -2,7 +2,7 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/131536
 # 작성자: 김재천
-# 작성일: 2026. 01. 19. 11:00:26
+# 작성일: 2026. 01. 19. 11:04:17
 
 -- 동일 회원, 동일 상품 재구매를 어떻게 찾을까
 -- 하나의 USER_ID에서 하나의 product_id가 2개 이상, 다른 online_sale_id
