@@ -3,11 +3,12 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120585
 # 알고리즘: 기초
 # 작성자: 김재천
-# 작성일: 2026. 01. 22. 09:41:58
+# 작성일: 2026. 01. 22. 09:42:51
 
 def solution(array, height):
-    array.sort(reverse=True)
+    # 내림차순 정렬
     cnt = 0
+    # 큰값부터 
     for i in array:
         if i > height:
             cnt+=1
